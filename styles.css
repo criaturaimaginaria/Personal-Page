@@ -32,13 +32,17 @@ body {
       
   }
   
- h1{    font-weight: 700;
-     padding-top: 2em;
+ h1{  
+    font-weight: 700;
+    padding-top: 1.8em;
+    padding-left: 1.2em;
     font-size: 5em;
   }
   
-  h2{  font-weight: 700;
+  h2{  
+    font-weight: 700;
     font-size: 3em;
+    padding-left: 2.7em;
 
   }
   
@@ -73,6 +77,17 @@ body {
     
     color: #fff;
   
+  }
+
+  #portfolio a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  #portfolio a:hover{
+    color: rgb(112, 112, 112);
+    font-size: 1.5em;
+    text-decoration: none;
   }
   
   
