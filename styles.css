@@ -70,6 +70,11 @@ html{
     height: 100vh;
     background-color: #17181A;
     color: #fff;
+
+   position: -webkit-sticky;
+   position: -moz-sticky;
+   position: -o-sticky;
+   position: -ms-sticky; 
   }
 
 
@@ -105,6 +110,11 @@ html{
     background: url(./boat1small.jpg) no-repeat center center fixed;
     background-size: cover;
     color: rgb(0, 0, 0);
+
+    position: -webkit-sticky;
+   position: -moz-sticky;
+   position: -o-sticky;
+   position: -ms-sticky; 
   }
 
 
@@ -154,6 +164,11 @@ html{
     background-size: cover;
     height: 100vh;
     color: #fff;
+
+    position: -webkit-sticky;
+   position: -moz-sticky;
+   position: -o-sticky;
+   position: -ms-sticky; 
   }
 
   #contact a:first-child{
