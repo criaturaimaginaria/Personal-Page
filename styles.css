@@ -341,12 +341,11 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------some works / porfolio---------- */
 #portfolio{
-  background: url(./boatVertical6.jpg) no-repeat center center fixed;
-  background-attachment: fixed;
+  background: url(./boatVertical6.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; 
 }
 #portfolio ul {
   float: none;
