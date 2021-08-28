@@ -6,8 +6,8 @@
 *{
 font-weight: 400;
   font-family: STIX Two Math;
-  /* font-family: IM Fell Great Primer SC; */
-  /* font-family: 'Croissant One', cursive; */
+
+
     padding: 0px;
     margin: 0px;
     font-size: 16px;
@@ -21,6 +21,10 @@ body {
 
 
 /* ---------homePage--------- */
+/* nav{
+ 
+  color: #17181A;
+} */
   #home  {
     height: 100vh;
     color: rgb(7, 7, 7);
@@ -31,6 +35,24 @@ body {
       z-index: 0;
       
   }
+  nav{
+    width: 100vw;
+  }
+
+  ul {
+    float: right;
+    padding: 0.5em 5em 0em 0em;
+  }
+  a{
+    font-size: 1.5em;
+    color: #17181A;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #783aec;
+  }
+
+
   
  h1{  
     font-weight: 700;
@@ -48,7 +70,7 @@ body {
   
   
 /* ---------about me a bit---------- */
-  #about{
+  #tech{
     
       position: sticky;
     z-index: 3;
@@ -57,11 +79,11 @@ body {
     
     /* color: #fff; */
   }
-  #about h1{
+  #tech h1{
       color: #fff;
   }
 
-  #about h2{
+  #tech h2{
     color: #fff;
 }
 
