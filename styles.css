@@ -59,7 +59,13 @@ html{
     font-weight: 700;
     font-size: 3em;
     padding-left: 2.7em;
+  }
 
+  p{
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-left: 10%;
+    margin-right: 25%;
   }
   
   
@@ -297,7 +303,7 @@ padding: 0.5em 0em 0em 0em;
 }
 
 h1{  
-  padding-top: 15vh;
+  padding-top: 7vh;
   padding-left: 0.8em;
   font-size: 2em;
 }
