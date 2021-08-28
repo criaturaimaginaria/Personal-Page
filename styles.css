@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&family=STIX+Two+Math&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+
 *{
 font-weight: 400;
   font-family: STIX Two Math;
@@ -36,6 +40,7 @@ body {
       
   }
   nav{
+    position:static;
     width: 100vw;
   }
 
@@ -85,6 +90,17 @@ body {
 
   #tech h2{
     color: #fff;
+}
+#tech a{
+  padding-right: 5em;
+  
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1em;
+}
+#tech a:hover{
+  color: rgb(227, 158, 236);
 }
 
 
