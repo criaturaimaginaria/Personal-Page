@@ -341,7 +341,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------some works / porfolio---------- */
 #portfolio{
-  background: url(./boatVertical6.jpg);
+  background: url(./globo-vertical10.png) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -383,7 +383,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------contact-------- */
 #contact{
-  background: url(./globo-vertical2.png) ;
+  background: url(./globo-vertical2.png) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
