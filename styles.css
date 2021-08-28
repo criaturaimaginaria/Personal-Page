@@ -288,7 +288,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* ----------responsive for phones------------ */
 @media only screen and (max-width: 430px ) {
-
+  background-attachment:scroll
  /* ---------homePage--------- */
 
  a{
