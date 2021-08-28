@@ -316,7 +316,14 @@ padding: 0.5em 0em 0em 0em;
 }
 
 /* --------some works / porfolio---------- */
+#portfolio{
+  background: url(./boat-small-vertical.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
 #portfolio ul {
+
+    
+  
   float: none;
   padding: 0em 0em 0em 0em;
   text-align: center;
@@ -352,7 +359,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------contact-------- */
 #contact{
-  background: url(./globovertical.jpg) no-repeat center center fixed;
+  background: url(./globo-vertical2.png) no-repeat center center fixed;
   background-size: cover;
 }
 
