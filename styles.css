@@ -181,6 +181,10 @@ html{
     padding-left: 2.7em;
   }
 
+  #contact li{
+    display: none;
+  }
+
 /* --------responsive for smaller pc screens------ */
 
 @media only screen and (max-width: 1000px ) {
@@ -257,7 +261,7 @@ padding: 0.5em 0em 0em 0em;
   color: #0f002a;
   font-weight: 700;
   font-size: 3.5em;
-  padding-left: 1.5em;
+  padding-left: 0em;
 }
 #contact h2{
   padding-left: 2.3em;
@@ -273,10 +277,11 @@ padding: 0.5em 0em 0em 0em;
  /* ---------homePage--------- */
 
  a{
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 h1{  
+  padding-top: 15vh;
   padding-left: 0.8em;
   font-size: 2em;
 }
@@ -329,8 +334,12 @@ padding: 0.5em 0em 0em 0em;
 }
 
 /* --------contact-------- */
+
 #contact h1{
-  padding-top: 2em;
+  padding-top: 20vh;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 0.2em;
 }
 
 #contact ul{
@@ -338,24 +347,42 @@ padding: 0.5em 0em 0em 0em;
   float: none;
   text-align: center;
 }
+#contact ul:hover{
+  padding: 0px 0px 0px 0px;
+  float: none;
+  text-align: center;
+}
 
 #contact a{
+  padding-left: 0em;
+}
+#contact a:hover{
+  padding-left: 0em;
+}
+
+#contact a:nth-child(1n+2){
+display: none;
 color: #fff;
 font-weight: 700;
 font-size: 1em;
-padding-left: 1.2em;
-text-decoration: none;
+padding-left: 0em;
 
 }
-#contact a:hover{
-color: #0f002a;
-font-weight: 700;
-font-size: 1em;
-padding-left: 1.2em;
-}
+
 #contact h2{
-  font-size: 1.2em;
-padding-left: 1.2em;
+  display: none;
+  padding-left: 0px;
+}
+
+#contact li{
+  display: inline;
+  padding-left: 0px;
+}
+#contact a:hover{
+  color: #0f002a;
+  font-weight: 700;
+  font-size: 3.5em;
+  padding-left: 0em;
 }
 
 }
