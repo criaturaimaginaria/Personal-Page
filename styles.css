@@ -100,17 +100,30 @@ body {
     color: #fff;
   
   }
-
+#portfolio h1{  
+    color: #17181A;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-left: 1.2em;
+    font-size: 5em;
+  }
+  
   #portfolio a{
-    color: rgb(0, 0, 0);
-    font-size: 1.5em;
+    color: #17181A;
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 2.7em;
     text-decoration: none;
   }
   #portfolio a:hover{
-    color: rgb(112, 112, 112);
-    font-size: 1.5em;
-    text-decoration: none;
+    color: #783aec;
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 2.7em;
   }
+
+  
+ 
   
   
 /* --------contact-------- */
@@ -119,9 +132,22 @@ body {
     background: url(./globosmall.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
- 
     color: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 2em;
   }
   
+  #contact a{
+   
+    color: #fff;
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 2.7em;
+    text-decoration: none;
+  }
+  #contact a:hover{
+    color: #783aec;
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 2.7em;
+  }
 
