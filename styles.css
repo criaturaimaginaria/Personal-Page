@@ -349,6 +349,11 @@ padding: 0.5em 0em 0em 0em;
 }
 
 /* --------contact-------- */
+#contact{
+  background: url(./globovertical.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 
 #contact h1{
   padding-top: 20vh;
