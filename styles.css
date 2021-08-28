@@ -209,6 +209,7 @@ html{
     padding: 0.5em 0em 0em 0em;
     float: none;
     text-align: center;
+    font-size: 0.8em;
   }
   h1{  
     padding-left: 0.8em;
@@ -291,8 +292,8 @@ padding: 0.5em 0em 0em 0em;
   background-attachment:scroll
  /* ---------homePage--------- */
 
- a{
-  font-size: 1.2em;
+  a{
+  font-size: 0.4em;
 }
 
 h1{  
