@@ -341,6 +341,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------some works / porfolio---------- */
 #portfolio{
+  background:none;
   background: url(./globo-vertical20.png) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -383,6 +384,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------contact-------- */
 #contact{
+  background:none;
   background: url(./globo-vertical2.png) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
