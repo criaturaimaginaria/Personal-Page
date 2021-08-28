@@ -306,7 +306,9 @@ h2{
   padding-left: 2.4em;
 }
 /* ---------tecnologias---------- */
-
+#tech h1{
+  padding-bottom: 0.5em;
+}
 #tech ul {
 padding: 0.5em 0em 0em 0em;
   float: none;
