@@ -343,10 +343,10 @@ padding: 0.5em 0em 0em 0em;
 #portfolio{
   background: url(./boatVertical.jpg) no-repeat center center fixed;
   background-attachment: fixed;
-  background-size: contain;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #portfolio ul {
   float: none;
