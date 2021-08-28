@@ -1,34 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&family=STIX+Two+Math&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&family=STIX+Two+Math&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
 html{
   scroll-behavior: smooth;
 }
 
 *{
-font-weight: 400;
+  font-weight: 400;
   font-family: STIX Two Math;
-
-
-    padding: 0px;
-    margin: 0px;
-    font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
 }
 
 
-body { 
-    /* font-family: 'Fjalla One', sans-serif; */
-  }
-  
-
 
 /* ---------homePage--------- */
-/* nav{
- 
-  color: #17181A;
-} */
+
   #home  {
     height: 100vh;
     color: rgb(7, 7, 7);
@@ -74,14 +63,12 @@ body {
   }
   
   
-/* ---------about me a bit---------- */
+/* ---------tecnologias---------- */
   #tech{
-    
-      position: sticky;
+    position: sticky;
     z-index: 3;
     height: 100vh;
     background-color: #17181A;
-    
     color: #fff;
   }
 
@@ -108,37 +95,16 @@ body {
   #tech h2{
     color: #fff;
 }
-/* #tech a{
-  padding-right: 5em;
-  
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-  margin-left: 1em;
-}
-#tech a:hover{
-  color: rgb(227, 158, 236);
-} */
 
 
   
 /* --------some works / porfolio---------- */
   #portfolio{
     position: sticky;
-      height: 100vh;
-    /* height: auto; */
+    height: 100vh;
     background: url(./boat1small.jpg) no-repeat center center fixed;
     background-size: cover;
-    
     color: rgb(0, 0, 0);
-
-  }
-
-
-
-  .boatNav ul {
-    float: right;
-    padding: 0.5em 5em 0em 0em;
   }
 
 
@@ -184,7 +150,7 @@ body {
 /* --------contact-------- */
   #contact{
     position: sticky;
-    background: url(./globosmall.jpg) no-repeat center center fixed;
+    background: url(./globosmall12.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -202,7 +168,6 @@ body {
   }
   
   #contact a{
-   
     color: #fff;
     font-weight: 700;
     font-size: 3em;
@@ -214,6 +179,183 @@ body {
     font-weight: 700;
     font-size: 3em;
     padding-left: 2.7em;
-    
   }
 
+/* --------responsive for smaller pc screens------ */
+
+@media only screen and (max-width: 1000px ) {
+  
+  /* ---------homePage--------- */
+  #home ul {
+    padding: 0.5em 0em 0em 0em;
+    float: none;
+    text-align: center;
+  }
+  h1{  
+    padding-left: 0.8em;
+    font-size: 4em;
+  }
+  
+  h2{  
+    font-size: 2em;
+    padding-left: 2.4em;
+  }
+  /* ---------tecnologias---------- */
+
+  #tech ul {
+padding: 0.5em 0em 0em 0em;
+    float: none;
+    text-align: center;
+  }
+
+  /* --------some works / porfolio---------- */
+  #portfolio ul {
+    float: none;
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+  }
+
+  #portfolio a:first-child{
+    padding: 0em 0em 0em 0em;
+    font-size: 1.5em;
+  }
+  #portfolio a:first-child:hover{
+    padding: 0em 0em 0em 0em;
+
+    font-size: 1.5em;
+    align-content: center;
+  }
+  
+
+  #portfolio h1{  
+    padding-top: 1em;
+    padding-left: 1.2em;
+    font-size: 4.5em;
+  }
+  
+  #portfolio a{
+    font-size: 2.2em;
+    padding-left: 2.7em; 
+    padding-bottom: 3em;
+  }
+  #portfolio a:hover{
+    font-size: 2.2em;
+    padding-left: 2.7em;
+  }
+
+/* --------contact-------- */
+
+
+#contact a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.5em;
+  padding-left: 1.5em;
+  text-decoration: none;
+}
+#contact a:hover{
+  color: #0f002a;
+  font-weight: 700;
+  font-size: 3.5em;
+  padding-left: 1.5em;
+}
+#contact h2{
+  padding-left: 2.3em;
+}
+
+
+}
+
+
+/* ----------responsive for phones------------ */
+@media only screen and (max-width: 430px ) {
+
+ /* ---------homePage--------- */
+
+ a{
+  font-size: 1em;
+}
+
+h1{  
+  padding-left: 0.8em;
+  font-size: 2em;
+}
+
+h2{  
+  font-size: 1.4em;
+  padding-left: 2.4em;
+}
+/* ---------tecnologias---------- */
+
+#tech ul {
+padding: 0.5em 0em 0em 0em;
+  float: none;
+  text-align: center;
+}
+
+/* --------some works / porfolio---------- */
+#portfolio ul {
+  float: none;
+  padding: 0em 0em 0em 0em;
+  text-align: center;
+}
+
+#portfolio a:first-child{
+  padding: 0em 0em 0em 0em;
+  font-size: 1.5em;
+}
+#portfolio a:first-child:hover{
+  padding: 0em 0em 0em 0em;
+
+  font-size: 1.5em;
+  align-content: center;
+}
+
+
+#portfolio h1{  
+  padding-top: 1em;
+  padding-left: 0.5em;
+  font-size: 2.5em;
+}
+
+#portfolio a{
+  font-size: 1.2em;
+  padding-left: 1em; 
+  padding-bottom: 3em;
+}
+#portfolio a:hover{
+  font-size: 1.2em;
+  padding-left: 1em;
+}
+
+/* --------contact-------- */
+#contact h1{
+  padding-top: 2em;
+}
+
+#contact ul{
+  padding: 0px 0px 0px 0px;
+  float: none;
+  text-align: center;
+}
+
+#contact a{
+color: #fff;
+font-weight: 700;
+font-size: 1em;
+padding-left: 1.2em;
+text-decoration: none;
+
+}
+#contact a:hover{
+color: #0f002a;
+font-weight: 700;
+font-size: 1em;
+padding-left: 1.2em;
+}
+#contact h2{
+  font-size: 1.2em;
+padding-left: 1.2em;
+}
+
+}
