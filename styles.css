@@ -82,8 +82,25 @@ body {
     height: 100vh;
     background-color: #17181A;
     
-    /* color: #fff; */
+    color: #fff;
   }
+
+
+
+  #tech ul {
+    float: right;
+    padding: 0.5em 5em 0em 0em;
+  }
+
+#tech a{
+  color: #fff;
+  font-size: 1.5em;
+}
+#tech a:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff ;
+}
+
   #tech h1{
       color: #fff;
   }
@@ -91,7 +108,7 @@ body {
   #tech h2{
     color: #fff;
 }
-#tech a{
+/* #tech a{
   padding-right: 5em;
   
   text-decoration: none;
@@ -101,11 +118,11 @@ body {
 }
 #tech a:hover{
   color: rgb(227, 158, 236);
-}
+} */
 
 
   
-/* --------some works---------- */
+/* --------some works / porfolio---------- */
   #portfolio{
     position: sticky;
       height: 100vh;
@@ -113,9 +130,31 @@ body {
     background: url(./boat1small.jpg) no-repeat center center fixed;
     background-size: cover;
     
-    color: #fff;
-  
+    color: rgb(0, 0, 0);
+
   }
+
+
+
+  .boatNav ul {
+    float: right;
+    padding: 0.5em 5em 0em 0em;
+  }
+
+
+#portfolio a:first-child{
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
+#portfolio a:first-child:hover{
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  padding-left: 0px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+
 #portfolio h1{  
     color: #17181A;
     font-weight: 700;
@@ -149,7 +188,17 @@ body {
     background-size: cover;
     height: 100vh;
     color: #fff;
-    padding-bottom: 2em;
+  }
+
+  #contact a:first-child{
+    font-size: 1.5em;
+    color: rgb(248, 248, 248);
+  }
+  #contact a:first-child:hover{
+    font-size: 1.5em;
+    color: rgb(248, 248, 248);
+    padding-left: 0px;
+    border-bottom: 2px solid rgb(248, 248, 248) ;
   }
   
   #contact a{
@@ -161,9 +210,10 @@ body {
     text-decoration: none;
   }
   #contact a:hover{
-    color: #783aec;
+    color: #0f002a;
     font-weight: 700;
     font-size: 3em;
     padding-left: 2.7em;
+    
   }
 
