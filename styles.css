@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+
+body { 
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+
+
+/* ---------homePage--------- */
+  #home  {
+    height: 100vh;
+    color: rgb(7, 7, 7);
+  }
+
+  .container-child{
+      position: fixed;
+      z-index: 0;
+      
+  }
+  
+ h1{  
+     padding-top: 2em;
+    font-size: 4.5em;
+  }
+  
+  h2{
+    font-size: 2.5em;
+
+  }
+  
+  
+/* ---------about me a bit---------- */
+  #about{
+      position: sticky;
+    z-index: 3;
+    height: 100vh;
+    background-color: #17181A;
+    
+    /* color: #fff; */
+  }
+  #about h1{
+      color: #fff;
+  }
+
+  #about h2{
+    color: #fff;
+}
+
+
+  
+/* --------some works---------- */
+  #portfolio{
+    position: sticky;
+      height: 100vh;
+    /* height: auto; */
+    background: url(./boat1small.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    color: #fff;
+  
+  }
+  
+  
+/* --------contact-------- */
+  #contact{
+    position: sticky;
+    background: url(./globosmall.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+ 
+    color: #fff;
+    padding-bottom: 50px;
+  }
+  
+
