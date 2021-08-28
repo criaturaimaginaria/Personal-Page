@@ -67,6 +67,15 @@ html{
     margin-left: 10%;
     margin-right: 25%;
   }
+  .title a:last-child{
+    font-size: 1em;
+    color: #17181A;
+    text-decoration: none;
+  }
+  .title a:last-child:hover{
+    
+    border-bottom: 1px solid  rgb(0, 0, 0);
+  }
   
   
 /* ---------tecnologias---------- */
