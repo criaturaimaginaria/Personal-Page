@@ -25,8 +25,7 @@ html{
 
   .container-child{
       position: fixed;
-      z-index: 0;
-      
+      z-index: 0; 
   }
   nav{
     position:static;
@@ -227,6 +226,7 @@ html{
     font-size: 0.8em;
   }
   h1{  
+    padding-top: 1em;
     padding-left: 0.8em;
     font-size: 4em;
   }
@@ -234,6 +234,10 @@ html{
   h2{  
     font-size: 2em;
     padding-left: 2.4em;
+  }
+  p{
+    font-size: 1.2em;
+    margin-right: 10%;
   }
   /* ---------tecnologias---------- */
 
@@ -312,7 +316,7 @@ padding: 0.5em 0em 0em 0em;
 }
 
 h1{  
-  padding-top: 7vh;
+  padding-top: 5vh;
   padding-left: 0.8em;
   font-size: 2em;
 }
@@ -320,6 +324,10 @@ h1{
 h2{  
   font-size: 1.4em;
   padding-left: 2.4em;
+}
+p{
+  font-size: 1.2em;
+  margin-right: 10%;
 }
 /* ---------tecnologias---------- */
 #tech h1{
@@ -334,6 +342,7 @@ padding: 0.5em 0em 0em 0em;
 /* --------some works / porfolio---------- */
 #portfolio{
   background: url(./boatVertical.jpg) ;
+  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
