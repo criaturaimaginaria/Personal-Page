@@ -389,7 +389,7 @@ padding: 0.5em 0em 0em 0em;
 /* --------contact-------- */
 #contact{
   background:none;
-  background: url(./globo-vertical2.png) no-repeat center center fixed;
+  background: url(./globo-vertical2.png) ;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
