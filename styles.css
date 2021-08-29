@@ -389,7 +389,7 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------contact-------- */
 #contact{
-
+  
 
   background: url(./globo-vertical2.png) no-repeat center center fixed ;
 
@@ -404,11 +404,12 @@ padding: 0.5em 0em 0em 0em;
 
 
     background: url(./globo-vertical2.png) no-repeat center center fixed ;
-  
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
   
   }
 }
