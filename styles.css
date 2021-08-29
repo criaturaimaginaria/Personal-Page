@@ -340,18 +340,27 @@ padding: 0.5em 0em 0em 0em;
 }
 
 /* --------some works / porfolio---------- */
-#portfolio{
+/* #portfolio{
   background:none;
   background: url(./globo-vertical20.png);
   background-size: cover;
+} */
+#portfolio:after{
+  content:"";
+  position:sticky; /* stretch a fixed position to the whole screen */
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-1; /* needed to keep in the background */
+  background: url(./globo-vertical20.png) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-  background-attachment: fixed;
-  background-position: center center;
-  
-  @media (max-width: @iphone-screen) {
-    background-attachment: scroll;
-}
-}
+
 #portfolio ul {
   float: none;
   padding: 0em 0em 0em 0em;
@@ -390,19 +399,22 @@ padding: 0.5em 0em 0em 0em;
 #contact{
   height: 100vh;
   background: url(./globo-vertical2.png) no-repeat center center fixed;
-
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-   background-size: 100% 100%; 
-
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;  */
+  background-size: cover;
 }
 
+
+@supports ( -webkit-touch-callout : none) {
+  #contact {
+    background: url(./globo-vertical2.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  }
 
 #contact h1{
   padding-top: 20vh;
