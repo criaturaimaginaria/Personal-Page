@@ -388,16 +388,16 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------contact-------- */
 #contact{
-
+  height: 100%;
   background: url(./globo-vertical2.png) no-repeat center center fixed;
 
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  
-  @media (max-width: @iphone-screen) {
-    background-attachment: scroll;
-}
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   background-size: 100% 100%; 
+
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;  */
