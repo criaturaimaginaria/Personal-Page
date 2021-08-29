@@ -343,7 +343,7 @@ padding: 0.5em 0em 0em 0em;
 #portfolio{
   background:none;
   background: url(./globo-vertical20.png)no-repeat top center fixed;
-  background-attachment:inherit;    
+  /* background-attachment:inherit;     */
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size: cover;
@@ -392,7 +392,7 @@ padding: 0.5em 0em 0em 0em;
 
   background: url(./globo-vertical2.png) no-repeat top center fixed;
   
-  background-attachment:inherit;    
+  /* background-attachment:inherit;     */
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size: cover;
