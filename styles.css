@@ -391,7 +391,7 @@ padding: 0.5em 0em 0em 0em;
 #contact{
 
 
-  background: url(./globo-vertical2.png) no-repeat top center ;
+  background: url(./globo-vertical2.png) no-repeat center center fixed ;
 
   background-size:cover;
   -webkit-background-size:cover;
