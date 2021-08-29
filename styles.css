@@ -341,13 +341,13 @@ padding: 0.5em 0em 0em 0em;
 
 /* --------some works / porfolio---------- */
 #portfolio{
-  background:none;
-  background: url(./globo-vertical20.png)no-repeat top center fixed;
+  /* background:none; */
+  background: url(./globo-vertical20.png)no-repeat ;
   /* background-attachment:inherit;     */
-  background-size:cover;
+  /* background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
 }
 
 
