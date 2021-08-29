@@ -342,16 +342,26 @@ padding: 0.5em 0em 0em 0em;
 /* --------some works / porfolio---------- */
 #portfolio{
 
-  background: url(./globo-vertical20.png)no-repeat center center fixed;
-  overflow-y:scroll;
-
+  background: url(./globo-vertical20.png)no-repeat center center fixed ;
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 
+/* ------this is for iOS, the image ------ */
+@supports (-webkit-touch-callout: none) {
+  #portfolio{
 
+    background: url(./globo-vertical20.png) no-repeat center center fixed ;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+  
+  }
+}
 
 #portfolio ul {
   float: none;
@@ -399,6 +409,7 @@ padding: 0.5em 0em 0em 0em;
   -o-background-size: cover;
 
 }
+/* ------this is for iOS, the image ------ */
 @supports (-webkit-touch-callout: none) {
   #contact{
 
