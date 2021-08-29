@@ -400,7 +400,9 @@ padding: 0.5em 0em 0em 0em;
 
   background: url(./globo-vertical2.png) no-repeat top center fixed;
   
-background-size: 100vmax 100vmax;
+  background-attachment:inherit;    
+  background-size:cover;
+  -webkit-background-size:cover;
 }
 
 
