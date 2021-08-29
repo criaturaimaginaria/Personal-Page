@@ -340,15 +340,25 @@ padding: 0.5em 0em 0em 0em;
 }
 
 /* --------some works / porfolio---------- */
-#portfolio{
-  /* background:none; */
+/* #portfolio{
+
   background: url(./globo-vertical20.png)no-repeat top center fixed;
   overflow-y:scroll;
-  /* background-attachment:inherit;     */
+
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+} */
+#portfolio {
+  background: url(./globo-vertical20.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+  @media (max-width: @iphone-screen) {
+      background-attachment: scroll;
+  }
 }
 
 
@@ -399,6 +409,11 @@ padding: 0.5em 0em 0em 0em;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+@supports ( -webkit-touch-callout : none) {
+  #contact {
+  background-attachment:scroll
+  }
+  }
 
 /* background-size: cover;
 background-attachment: fixed;
