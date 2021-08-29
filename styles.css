@@ -353,11 +353,12 @@ padding: 0.5em 0em 0em 0em;
   left:0;
   right:0;
   z-index:-1; /* needed to keep in the background */
-  background: url(./globo-vertical20.png) center center;
-  -webkit-background-size: cover;
+  background: url(./globo-vertical20.png) no-repeat top center fixed;
+  background-attachment:inherit;    
+  background-size:cover;
+  -webkit-background-size:cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
 }
 
 
